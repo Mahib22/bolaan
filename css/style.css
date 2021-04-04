@@ -1,0 +1,22 @@
+.img-tim {
+	max-width: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+	margin: auto;
+}
+
+body {
+    background-color: #e1bee7;
+    background-image: url("../img/epl.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 35%;
+}
+
+
+@media screen and (max-width: 600px){
+    body{
+        background-size: 100%;
+    }
+}
